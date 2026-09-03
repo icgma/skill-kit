@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-01",
+  "scope": "project",
+  "lockFile": "/Users/moonshot/dev/finance-agent-toolkit/plugins/vertical-plugins/skills-lock.json",
+  "lockFound": true,
+  "command": "npx skills add https://github.com/Wind-Information-Co-Ltd/wind-skills.git --skill wind-mcp-skill -y",
+  "method": "add",
+  "sourceType": "github",
+  "updatedAt": "2026-07-01T01:26:46.439Z",
+  "status": "success",
+  "finishedAt": "2026-07-01T01:26:46.439Z",
+  "exitCode": 0,
+  "usedFallback": true,
+  "fallbackReason": "remote changed but update did not change local files",
+  "error": null,
+  "remoteHead": "14f5e10c0f3eb05e05a816fc740a6af2c0420dab",
+  "remoteChanged": true,
+  "lastAppliedRemoteHead": "14f5e10c0f3eb05e05a816fc740a6af2c0420dab",
+  "changed": false,
+  "beforeHash": "446b273e5d5cca84d5b40cca75e48688738da6f25bcc19b4dab5dfa3a1ab43e0",
+  "afterHash": "446b273e5d5cca84d5b40cca75e48688738da6f25bcc19b4dab5dfa3a1ab43e0",
+  "output": "?25h│\n●  Installing to: Claude Code, Codex, Kimi Code CLI\n\n│\n◇  Installation Summary ───────────────────────────────────────────────────────────────╮\n│                                                                                      │\n│  ~/dev/finance-agent-toolkit/plugins/vertical-plugins/.agents/skills/wind-mcp-skill  │\n│    universal: Codex, Kimi Code CLI, Amp, Antigravity, Antigravity CLI +12 more       │\n│    symlink → Claude Code                                                             │\n│    overwrites: Codex, Kimi Code CLI, Amp, Antigravity, Antigravity CLI +12 more      │\n│                                                                                      │\n├──────────────────────────────────────────────────────────────────────────────────────╯\n│\n◇  Security Risk Assessments ──────────────────────────────────────╮\n│                                                                  │\n│                  Gen               Socket            Snyk        │\n│  wind-mcp-skill  Safe              0 alerts          Med Risk    │\n│                                                                  │\n│  Details: https://skills.sh/Wind-Information-Co-Ltd/wind-skills  │\n│                                                                  │\n├──────────────────────────────────────────────────────────────────╯\n\u001b[?25l│\n\u001b[999D\u001b[J◇  Installation complete\n\u001b[?25h\n│\n◇  Installed 1 skill ────────────────────────────────────────────────────────────────────╮\n│                                                                                        │\n│  ✓ ~/dev/finance-agent-toolkit/plugins/vertical-plugins/.agents/skills/wind-mcp-skill  │\n│    universal: Codex, Kimi Code CLI, Amp, Antigravity, Antigravity CLI +12 more         │\n│                                                                                        │\n├────────────────────────────────────────────────────────────────────────────────────────╯\n\n│\n└  Done!  Review skills before use; they run with full agent permissions."
+}

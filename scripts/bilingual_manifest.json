@@ -1,0 +1,852 @@
+[
+  {
+    "canonical_id": "ad-copywriter",
+    "alias_id": "ad-creative",
+    "name_zh": "ad-copywriter",
+    "name_en": "ad-creative",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "adhd-daily-planner",
+    "alias_id": "adhd-assistant",
+    "name_zh": "adhd-daily-planner",
+    "name_en": "adhd-assistant",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "api-doc-gen",
+    "alias_id": "route-to-openapi",
+    "name_zh": "api-doc-gen",
+    "name_en": "route-to-openapi",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "astro-observation-report-cn",
+    "alias_id": "astro-observation-report",
+    "name_zh": "astro-observation-report-cn",
+    "name_en": "astro-observation-report",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "audience-adapter",
+    "alias_id": "audience-adaptive-comms",
+    "name_zh": "audience-adapter",
+    "name_en": "audience-adaptive-comms",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "auto-stat-test",
+    "alias_id": "auto-hypothesis-test",
+    "name_zh": "auto-stat-test",
+    "name_en": "auto-hypothesis-test",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "brand-naming-lab",
+    "alias_id": "brand-name-forge",
+    "name_zh": "brand-naming-lab",
+    "name_en": "brand-name-forge",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "business-plan-ppt",
+    "alias_id": "pitch-deck-creator",
+    "name_zh": "business-plan-ppt",
+    "name_en": "pitch-deck-creator",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "campaign-planner",
+    "alias_id": "campaign-plan",
+    "name_zh": "campaign-planner",
+    "name_en": "campaign-plan",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "cashflow-valuation",
+    "alias_id": "discounted-cashflow-model",
+    "name_zh": "cashflow-valuation",
+    "name_en": "discounted-cashflow-model",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "chart-gen",
+    "alias_id": "chart-image",
+    "name_zh": "chart-gen",
+    "name_en": "chart-image",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "chrono-flow",
+    "alias_id": "timeline-builder",
+    "name_zh": "chrono-flow",
+    "name_en": "timeline-builder",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "code-arch-optimizer",
+    "alias_id": "deep-module-refactor",
+    "name_zh": "code-arch-optimizer",
+    "name_en": "deep-module-refactor",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "code-safety-audit",
+    "alias_id": "code-vuln-audit",
+    "name_zh": "code-safety-audit",
+    "name_en": "code-vuln-audit",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "code-to-chart",
+    "alias_id": "code-to-diagram",
+    "name_zh": "code-to-chart",
+    "name_en": "code-to-diagram",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "commodity-research-outlook",
+    "alias_id": "commodities-outlook",
+    "name_zh": "commodity-research-outlook",
+    "name_en": "commodities-outlook",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "competitive-seo-intel",
+    "alias_id": "competitor-analysis",
+    "name_zh": "competitive-seo-intel",
+    "name_en": "competitor-analysis",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "compliance-review-planner",
+    "alias_id": "regulatory-audit-generator",
+    "name_zh": "compliance-review-planner",
+    "name_en": "regulatory-audit-generator",
+    "category": "法律合规",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "copy-editor",
+    "alias_id": "copy-editing",
+    "name_zh": "copy-editor",
+    "name_en": "copy-editing",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "corr-insight",
+    "alias_id": "correlation-auditor",
+    "name_zh": "corr-insight",
+    "name_en": "correlation-auditor",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "customer-reply-craft",
+    "alias_id": "support-response-writer",
+    "name_zh": "customer-reply-craft",
+    "name_en": "support-response-writer",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "data-viz-gen",
+    "alias_id": "data-viz-renderer",
+    "name_zh": "data-viz-gen",
+    "name_en": "data-viz-renderer",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "database-inspector",
+    "alias_id": "database-scout",
+    "name_zh": "database-inspector",
+    "name_en": "database-scout",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "dataset-health-audit",
+    "alias_id": "dataset-quality-audit",
+    "name_zh": "dataset-health-audit",
+    "name_en": "dataset-quality-audit",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "ddd-glossary-gen",
+    "alias_id": "domain-glossary",
+    "name_zh": "ddd-glossary-gen",
+    "name_en": "domain-glossary",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "deep-probe",
+    "alias_id": "cross-examine",
+    "name_zh": "deep-probe",
+    "name_en": "cross-examine",
+    "category": "技能工具",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "dev-guide-writer",
+    "alias_id": "dev-guide-generator",
+    "name_zh": "dev-guide-writer",
+    "name_en": "dev-guide-generator",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "email-manager",
+    "alias_id": "imap-smtp-email",
+    "name_zh": "email-manager",
+    "name_en": "imap-smtp-email",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "equity-earnings-review",
+    "alias_id": "earnings-review-note",
+    "name_zh": "equity-earnings-review",
+    "name_en": "earnings-review-note",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "equity-research-report-cn",
+    "alias_id": "equity-research-report",
+    "name_zh": "equity-research-report-cn",
+    "name_en": "equity-research-report",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "event-etf-study",
+    "alias_id": "quick-event-etf-study",
+    "name_zh": "event-etf-study",
+    "name_en": "quick-event-etf-study",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "fashion-sketch-cn",
+    "alias_id": "fashion-sketch",
+    "name_zh": "fashion-sketch-cn",
+    "name_en": "Fashion Sketch",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "financial-report-reader",
+    "alias_id": "financial-statement-analyzer",
+    "name_zh": "financial-report-reader",
+    "name_en": "financial-statement-analyzer",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "flashcard-studio",
+    "alias_id": "anki-card-maker",
+    "name_zh": "flashcard-studio",
+    "name_en": "anki-card-maker",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "fund-risk-analyzer",
+    "alias_id": "fund-risk-compare",
+    "name_zh": "fund-risk-analyzer",
+    "name_en": "fund-risk-compare",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "fundraising-bp-planner",
+    "alias_id": "investor-pitch-planner",
+    "name_zh": "fundraising-bp-planner",
+    "name_en": "investor-pitch-planner",
+    "category": "技能工具",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "gantt-chart-builder",
+    "alias_id": "gantt-planner",
+    "name_zh": "gantt-chart-builder",
+    "name_en": "gantt-planner",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "geo-magazine-slides-cn",
+    "alias_id": "geo-magazine-slides",
+    "name_zh": "geo-magazine-slides-cn",
+    "name_en": "geo-magazine-slides",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "git-repo-audit",
+    "alias_id": "repo-audit",
+    "name_zh": "git-repo-audit",
+    "name_en": "repo-audit",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "gitlab-cli-guide",
+    "alias_id": "gitlab-cli-skills",
+    "name_zh": "gitlab-cli-guide",
+    "name_en": "gitlab-cli-skills",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "html-email-builder",
+    "alias_id": "email-newsletter-builder",
+    "name_zh": "html-email-builder",
+    "name_en": "email-newsletter-builder",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "html-mail-builder",
+    "alias_id": "html-mailer-builder",
+    "name_zh": "html-mail-builder",
+    "name_en": "html-mailer-builder",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "http-load-tester",
+    "alias_id": "http-load-profiler",
+    "name_zh": "http-load-tester",
+    "name_en": "http-load-profiler",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "humanizer-zh",
+    "alias_id": "humanizer",
+    "name_zh": "humanizer-zh",
+    "name_en": "humanizer",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "idea-to-prd",
+    "alias_id": "product-spec-writer",
+    "name_zh": "idea-to-prd",
+    "name_en": "product-spec-writer",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "incident-retrospective",
+    "alias_id": "incident-review-guide",
+    "name_zh": "incident-retrospective",
+    "name_en": "incident-review-guide",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "interface-design-lab",
+    "alias_id": "api-shape-explorer",
+    "name_zh": "interface-design-lab",
+    "name_en": "api-shape-explorer",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "interview-simulator",
+    "alias_id": "mock-interview-drill",
+    "name_zh": "interview-simulator",
+    "name_en": "mock-interview-drill",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "investment-memo",
+    "alias_id": "investor-letter-writer",
+    "name_zh": "investment-memo",
+    "name_en": "investor-letter-writer",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "iteration-planner",
+    "alias_id": "sprint-plan-builder",
+    "name_zh": "iteration-planner",
+    "name_en": "sprint-plan-builder",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "journalistic-portrait-cn",
+    "alias_id": "journalistic-portrait",
+    "name_zh": "journalistic-portrait-cn",
+    "name_en": "journalistic-portrait",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "k8s-cluster-ops",
+    "alias_id": "kubectl",
+    "name_zh": "k8s-cluster-ops",
+    "name_en": "kubectl",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "kimi-skills-finder",
+    "alias_id": "kimi-find-skills",
+    "name_zh": "kimi-skills-finder",
+    "name_en": "kimi-find-skills",
+    "category": "技能工具",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "legal-risk-analyzer",
+    "alias_id": "legal-risk-assessment",
+    "name_zh": "legal-risk-analyzer",
+    "name_en": "legal-risk-assessment",
+    "category": "法律合规",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "locale-guard",
+    "alias_id": "localization-toolkit",
+    "name_zh": "locale-guard",
+    "name_en": "localization-toolkit",
+    "category": "工程研发",
+    "copied_files": [
+      ".security-scan-passed"
+    ]
+  },
+  {
+    "canonical_id": "log-diagnostic",
+    "alias_id": "log-error-digest",
+    "name_zh": "log-diagnostic",
+    "name_en": "log-error-digest",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "lp-proto-gen",
+    "alias_id": "landing-page-scaffold",
+    "name_zh": "lp-proto-gen",
+    "name_en": "landing-page-scaffold",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "market-insight-report",
+    "alias_id": "market-research-brief",
+    "name_zh": "market-insight-report",
+    "name_en": "market-research-brief",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "marketing-writer",
+    "alias_id": "copywriting",
+    "name_zh": "marketing-writer",
+    "name_en": "copywriting",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "meeting-recap",
+    "alias_id": "structured-minutes",
+    "name_zh": "meeting-recap",
+    "name_en": "structured-minutes",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "okr-planner",
+    "alias_id": "okr-strategist",
+    "name_zh": "okr-planner",
+    "name_en": "okr-strategist",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "paper-review-coach",
+    "alias_id": "academic-paper-reviewer",
+    "name_zh": "paper-review-coach",
+    "name_en": "academic-paper-reviewer",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "photo-magazine-cn",
+    "alias_id": "photo-magazine",
+    "name_zh": "photo-magazine-cn",
+    "name_en": "photo-magazine",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "podcast-blueprint",
+    "alias_id": "podcast-episode-writer",
+    "name_zh": "podcast-blueprint",
+    "name_en": "podcast-episode-writer",
+    "category": "视听创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "pricing-advisor",
+    "alias_id": "pricing-strategy",
+    "name_zh": "pricing-advisor",
+    "name_en": "pricing-strategy",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "primary-market-research",
+    "alias_id": "vc-industry-research",
+    "name_zh": "primary-market-research",
+    "name_en": "vc-industry-research",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "programming-tutor",
+    "alias_id": "code-mentor",
+    "name_zh": "programming-tutor",
+    "name_en": "code-mentor",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "ref-style-converter",
+    "alias_id": "cite-style-converter",
+    "name_zh": "ref-style-converter",
+    "name_en": "cite-style-converter",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "regression-insight",
+    "alias_id": "regression-modeler",
+    "name_zh": "regression-insight",
+    "name_en": "regression-modeler",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "research-paper-refiner",
+    "alias_id": "scholarly-writing-refiner",
+    "name_zh": "research-paper-refiner",
+    "name_en": "scholarly-writing-refiner",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "research-writer",
+    "alias_id": "content-research-writer",
+    "name_zh": "research-writer",
+    "name_en": "content-research-writer",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "resume-craft",
+    "alias_id": "cv-tailor",
+    "name_zh": "resume-craft",
+    "name_en": "cv-tailor",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "retention-manager",
+    "alias_id": "churn-prevention",
+    "name_zh": "retention-manager",
+    "name_en": "churn-prevention",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "retro-tech-illustration-cn",
+    "alias_id": "retro-tech-illustration",
+    "name_zh": "retro-tech-illustration-cn",
+    "name_en": "retro-tech-illustration",
+    "category": "技能工具",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "rhetoric-speech-craft",
+    "alias_id": "keynote-composer",
+    "name_zh": "rhetoric-speech-craft",
+    "name_en": "keynote-composer",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "rust-browser-pilot",
+    "alias_id": "fast-browser-use",
+    "name_zh": "rust-browser-pilot",
+    "name_en": "fast-browser-use",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "saas-analyzer",
+    "alias_id": "saas-metrics-coach",
+    "name_zh": "saas-analyzer",
+    "name_en": "saas-metrics-coach",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "sci-paper-cn",
+    "alias_id": "sci-paper",
+    "name_zh": "sci-paper-cn",
+    "name_en": "sci-paper",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "research-advisor",
+    "alias_id": "scientific-problem-selection",
+    "name_zh": "research-advisor",
+    "name_en": "scientific-problem-selection",
+    "category": "学术工作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "seo-analyzer",
+    "alias_id": "seo-audit",
+    "name_zh": "seo-analyzer",
+    "name_en": "seo-audit",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "seo-copywriting-guide",
+    "alias_id": "seo-content-writer",
+    "name_zh": "seo-copywriting-guide",
+    "name_en": "seo-content-writer",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "smart-commit-gen",
+    "alias_id": "conventional-commit-gen",
+    "name_zh": "smart-commit-gen",
+    "name_en": "conventional-commit-gen",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "smart-web-scraper",
+    "alias_id": "playwright-scraper-skill",
+    "name_zh": "smart-web-scraper",
+    "name_en": "playwright-scraper-skill",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "software-testing-guide",
+    "alias_id": "test-suite-architect",
+    "name_zh": "software-testing-guide",
+    "name_en": "test-suite-architect",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "sop-writer",
+    "alias_id": "process-doc",
+    "name_zh": "sop-writer",
+    "name_en": "process-doc",
+    "category": "办公文档",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "speech-synthesis",
+    "alias_id": "edge-tts",
+    "name_zh": "speech-synthesis",
+    "name_en": "edge-tts",
+    "category": "视听创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "sql-tutor",
+    "alias_id": "sql-insight",
+    "name_zh": "sql-tutor",
+    "name_en": "sql-insight",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "stock-finance-profiler",
+    "alias_id": "financial-ratio-toolkit",
+    "name_zh": "stock-finance-profiler",
+    "name_en": "financial-ratio-toolkit",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "stock-research-report-cn",
+    "alias_id": "stock-research-report",
+    "name_zh": "stock-research-report-cn",
+    "name_en": "stock-research-report",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "stock-tech-analysis",
+    "alias_id": "stock-signal-analyzer",
+    "name_zh": "stock-tech-analysis",
+    "name_en": "stock-signal-analyzer",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "sunlight-analysis",
+    "alias_id": "sun-path",
+    "name_zh": "sunlight-analysis",
+    "name_en": "sun-path",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "tdd-coach",
+    "alias_id": "test-driven-dev",
+    "name_zh": "tdd-coach",
+    "name_en": "test-driven-dev",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "terraform-deploy-traps",
+    "alias_id": "terraform-deploy-pitfalls",
+    "name_zh": "terraform-deploy-traps",
+    "name_en": "terraform-deploy-pitfalls",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "theme-kit",
+    "alias_id": "theme-factory",
+    "name_zh": "theme-kit",
+    "name_en": "theme-factory",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "tos-risk-checker",
+    "alias_id": "tos-clause-scanner",
+    "name_zh": "tos-risk-checker",
+    "name_en": "tos-clause-scanner",
+    "category": "法律合规",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "trading-strategy-backtest",
+    "alias_id": "quick-strategy-backtest",
+    "name_zh": "trading-strategy-backtest",
+    "name_en": "quick-strategy-backtest",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "ui-blueprint",
+    "alias_id": "design-system-builder",
+    "name_zh": "ui-blueprint",
+    "name_en": "design-system-builder",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "user-story-canvas",
+    "alias_id": "story-map-builder",
+    "name_zh": "user-story-canvas",
+    "name_en": "story-map-builder",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "value-invest-scorer",
+    "alias_id": "value-investing-scorecard",
+    "name_zh": "value-invest-scorer",
+    "name_en": "value-investing-scorecard",
+    "category": "商业金融",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "video-compare-tool",
+    "alias_id": "video-quality-diff",
+    "name_zh": "video-compare-tool",
+    "name_en": "video-quality-diff",
+    "category": "视听创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "web-security-audit",
+    "alias_id": "secure-code-review",
+    "name_zh": "web-security-audit",
+    "name_en": "secure-code-review",
+    "category": "工程研发",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "weighted-scoring",
+    "alias_id": "weighted-scorer",
+    "name_zh": "weighted-scoring",
+    "name_en": "weighted-scorer",
+    "category": "数据方法",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "work-report-writer",
+    "alias_id": "work-recap-writer",
+    "name_zh": "work-report-writer",
+    "name_en": "work-recap-writer",
+    "category": "图文创作",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "workload-calculator",
+    "alias_id": "project-sizing-guide",
+    "name_zh": "workload-calculator",
+    "name_en": "project-sizing-guide",
+    "category": "生活效率",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "ecom-copy-assistant",
+    "alias_id": "ecom-listing-copywriter",
+    "name_zh": "ecom-copy-assistant",
+    "name_en": "ecom-listing-copywriter",
+    "category": "营销增长",
+    "copied_files": []
+  },
+  {
+    "canonical_id": "pro-email-composer",
+    "alias_id": "professional-email-composer",
+    "name_zh": "pro-email-composer",
+    "name_en": "professional-email-composer",
+    "category": "图文创作",
+    "copied_files": []
+  }
+]

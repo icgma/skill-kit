@@ -1,0 +1,14 @@
+{
+  "name": "skill-kit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Private agent skill library with password-gated GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

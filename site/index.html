@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>技能库 · Skill Kit</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <section id="gate" class="gate" data-view="gate">
+      <div class="gate-frame">
+        <div class="seal" aria-hidden="true"><span>密</span></div>
+        <p class="eyebrow">icgma · Private Archive</p>
+        <h1>技能库</h1>
+        <p class="gate-en">Skill Kit</p>
+        <form id="gate-form" class="gate-form" autocomplete="off">
+          <label class="sr-only" for="password">共享口令</label>
+          <div class="pw-field">
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="输入共享口令"
+              autofocus
+              required
+            />
+            <button
+              type="button"
+              id="pw-toggle"
+              class="pw-toggle"
+              aria-label="显示口令"
+              title="显示/隐藏口令"
+            >
+              <svg class="icon-eye" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <svg class="icon-eye-off" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" hidden>
+                <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                <line x1="1" y1="1" x2="23" y2="23"></line>
+              </svg>
+            </button>
+          </div>
+          <div class="gate-opts">
+            <label class="gate-remember">
+              <input type="checkbox" id="remember" checked />
+              <span>记住此设备</span>
+            </label>
+          </div>
+          <button type="submit" id="gate-btn">开启档案</button>
+          <p id="gate-error" class="gate-error" hidden>口令不正确</p>
+        </form>
+        <p class="gate-hint">内容已加密。没有口令只能看到这一页。</p>
+      </div>
+    </section>
+
+    <div id="app" class="app" hidden>
+      <header class="top">
+        <a class="brand" href="#/">
+          <span class="seal mini" aria-hidden="true">库</span>
+          <span>
+            <strong>技能库</strong>
+            <em>Skill Kit</em>
+          </span>
+        </a>
+        <nav class="nav">
+          <a href="#/">目录</a>
+          <a href="#/guide">安装说明</a>
+          <button type="button" id="lock" class="text-btn">锁上</button>
+        </nav>
+      </header>
+
+      <main>
+        <section id="view-catalog" class="view" hidden>
+          <div class="catalog-head">
+            <div>
+              <p class="eyebrow">Archive Index</p>
+              <h2>目录</h2>
+            </div>
+            <p class="count"><span id="count">0</span> 份档案</p>
+          </div>
+          <label class="search">
+            <span class="sr-only">检索</span>
+            <input id="q" type="search" placeholder="检索名称、用途、正文" />
+          </label>
+          <div id="filters" class="filters" hidden></div>
+          <div id="cards" class="cards"></div>
+          <p id="empty" class="empty" hidden>没有匹配的技能。</p>
+        </section>
+
+        <section id="view-guide" class="view paper-view" hidden>
+          <p class="eyebrow">How to install</p>
+          <h2>把技能装进你的 Agent</h2>
+          <p class="lede">
+            本库里的技能是标准 Agent Skill：一个目录 + <code>SKILL.md</code>。
+            复制到对应位置后，Claude Code、Cursor、Codex、pi 等会按描述自动选用。
+          </p>
+
+          <h3>1. 从本站复制</h3>
+          <ol>
+            <li>打开某个技能。</li>
+            <li>点「复制 SKILL.md」或「下载 ZIP」（含该技能全部文件）。</li>
+            <li>按下面的路径放到本地。</li>
+          </ol>
+
+          <h3>2. 放置路径</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>工具</th>
+                  <th>个人全局</th>
+                  <th>仅当前项目</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Claude Code</td>
+                  <td><code>~/.claude/skills/&lt;name&gt;/</code></td>
+                  <td><code>.claude/skills/&lt;name&gt;/</code></td>
+                </tr>
+                <tr>
+                  <td>Cursor</td>
+                  <td><code>~/.cursor/skills/&lt;name&gt;/</code></td>
+                  <td><code>.cursor/skills/&lt;name&gt;/</code></td>
+                </tr>
+                <tr>
+                  <td>Codex / pi / 多数 agent</td>
+                  <td><code>~/.agents/skills/&lt;name&gt;/</code></td>
+                  <td><code>.agents/skills/&lt;name&gt;/</code></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Windows 把 <code>~</code> 换成 <code>%USERPROFILE%</code>，例如
+            <code>%USERPROFILE%\.agents\skills\css-professor\</code>。
+          </p>
+
+          <h3>3. 目录长什么样</h3>
+          <pre><code>css-professor/
+  SKILL.md
+  workflows/     ← 可选，分步流程
+  references/    ← 可选，背景知识
+  templates/     ← 可选
+  scripts/       ← 可选</code></pre>
+          <p>最少只要 <code>SKILL.md</code>。多文件技能请整夹复制，不要只拷正文。</p>
+
+          <h3>4. 技能如何被选中</h3>
+          <p>
+            Agent 先读 YAML 里的 <code>description</code>。把「做什么」和「何时用」写清楚，
+            比写一长段原理更重要。改完技能后一般不用重启，下一轮对话就会重新加载。
+          </p>
+        </section>
+
+        <section id="view-detail" class="view" hidden></section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" hidden></div>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
