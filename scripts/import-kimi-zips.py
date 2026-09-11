@@ -182,6 +182,11 @@ def extract_package(zf: zipfile.ZipFile, prefix: str, dest: str) -> int:
         if not rel or should_skip_member(rel):
             continue
         out = os.path.join(dest, *rel.split("/"))
+
+        # Prevent Zip Slip vulnerability
+        if not os.path.abspath(out).startswith(os.path.abspath(dest) + os.sep):
+            continue
+
         if info.is_dir() or n.endswith("/"):
             os.makedirs(out, exist_ok=True)
             continue
